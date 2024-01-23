@@ -8,12 +8,11 @@ function App() {
 
   const { data, error, isLoading } = useSWR(url, fetcher)
 
-  if (error) return <div>Failed to load.</div>
-  if (isLoading) return <div>Loading...</div>
+  if (error) return <p className='status'>Failed to load.</p>
+  if (isLoading) return <p className='status'>Loading...</p>
 
-  return <>{data && <p>Status : OK </p>}</>;
+  return <>{data && <p className='status'>Status : OK </p>}</>;
 
 }
-
 
 export default App;
