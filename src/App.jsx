@@ -11,7 +11,7 @@ function App() {
   if (error) return <p className="status">Failed to load.</p>;
   if (isLoading) return <p className="status">Loading...</p>;
 
-  return <>{data && <p className="status">Status : OK </p>}</>;
+  return <>{data && <p className="status">Status : {data.description} </p>}</>;
 }
 
 export default App;
