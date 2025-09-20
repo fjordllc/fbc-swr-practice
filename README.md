@@ -23,7 +23,7 @@ $ git clone https://github.com/自分のアカウント名/fbc-swr-practice.git
 $ git checkout -b my-fizzbuzz main
 ```
 1. `cd fbc-swr-practice` でカレントディレクトリを変更してください。
-1. `npm start`でローカルサーバーを起動できます。
+1. `npm start`で mock の API サーバーと React アプリケーションが同時に起動します。
 1. ソースコードを修正したら、自動的にアプリケーションが更新されます。動作を確認してください。
 1. 自分が書いたコードを GitHub に push してください。
 1. ソースコードが完成したら、以下の注意点に気を付けながら自分のリポジトリへの Pull Request を作成し、URL を提出してください。
